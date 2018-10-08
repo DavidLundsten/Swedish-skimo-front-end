@@ -8,7 +8,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('bg.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
