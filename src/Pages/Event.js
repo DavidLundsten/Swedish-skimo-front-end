@@ -1,4 +1,3 @@
-import {Navbar} from "../Components/Navbar";
 import {Box} from "grommet/es6";
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
@@ -22,12 +21,10 @@ class Events extends Component{
             <React.Fragment>
                 <header className="App-header" style={{minHeight: '35vh'}} >
                     <h1 style ={{paddingTop: '35px'}}>Funäsdalen rando</h1>
-              
                 </header>
-                                   <Box style={style.box}>
-                                             <h3>Fancy underrubrik</h3>
-                                       
-                                   </Box>
+                <Box style={style.box}>
+                    <h3>Fancy underrubrik</h3>
+                </Box>
             </React.Fragment>
         )
     }

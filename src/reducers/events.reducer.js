@@ -6,12 +6,12 @@ export function events(state = [], action) {
         case eventsConstants.GET_EVENTS_REQUEST:
             return  {
                 ...state,
-                events: action.payload
             }
         case eventsConstants.GET_EVENTS_SUCCESS:
+            const sortedArray = action.payload.sort(function(a, b) {return a.startDate-b.startDate});
             return  {
                 ...state,
-                events: action.payload
+                events: sortedArray
             }
         case eventsConstants.GET_EVENTS_FAILURE:
             return  {
