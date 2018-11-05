@@ -23,8 +23,8 @@ const style = {
 };
 
 const opts = {
-    width: '540',
-    height:'300',
+    width: '800',
+    height:'450',
     playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
         modestbranding: 1,

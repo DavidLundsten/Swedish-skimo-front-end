@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.2.0",
+    "bit-bin": "^13.0.4",
     "grommet": "^2.0.0-beta.6",
     "grommet-icons": "^3.0.0",
     "moment": "^2.22.2",
